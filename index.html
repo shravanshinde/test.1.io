@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    ::-webkit-input-placeholder{
+        color:black;
+        font-weight: 700;
+    }
+</style>
+
+
+<body>
+  <div class="wrapper">
+    <h2>Career Form !</h2>
+    <form class="hurt">
+
+      <label >Name:</label>
+      <input type="name" name="name" placeholder="Enter your name" />
+      <br>
+      <br>
+      <label>Place:</label>
+      <input type="text" name="place" placeholder="Enter your place" />
+
+      <label>Email:</label>
+      <input type="email" name="email" autocomplete="email" placeholder="enter your email"  />
+      <!-- pattern=".+@.+\..+" -->
+      <br>
+      <br>
+
+
+
+      <label id="number-label" for="phone">Phone Number:</label>
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number"
+      pattern="[8 9 6][0-9]{9}" /> 
+
+      <br>
+      <br>
+
+      <label>Roll No:</label>
+      <input type="number" name="number" id="number" placeholder="Enter roll number" min="0" max="100" required>
+      <br>
+      <br>
+      <fieldset>
+        <legend>What's your favourite subject</legend>
+        <input type="radio" name="course"  value="Science">
+        <label for="science">Science</label>
+        <br>
+
+        <input type="radio" name="course"value="Math">
+        <label for="commerce">Commerce</label>
+        <br>
+
+        <input type="radio" name="course"  value="Art">
+        <label for="art">Art</label>
+      </fieldset>
+      <br>
+      <br>
+      <fieldset>
+        <legend>Which Stream you are from </legend>
+        <input type="checkbox" name="subject" value="science">
+        <label for="science">Science</label>
+        <br>
+
+        <input type="checkbox" name="subject" value="commerce">
+        <label for="commerce">Commerce</label>
+        <br>
+
+        <input type="checkbox" name="subject"  value="art">
+        <label for="art">Art</label>
+      </fieldset>
+      <br>
+      <br>
+
+      <div>
+        <label>
+        What's your profession now ?
+        </label>
+
+
+        <select name="role">
+          <option value="student">Student</option>
+          <option value="intern">Intern</option>
+          <option value="professional">
+            Professional
+          </option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <br>
+
+      <div>
+        <label>
+          About you 
+        </label>
+
+
+        <textarea placeholder="Enter your comment here">
+        </textarea>
+      </div>
+      <br>
+      <br>
+
+      <button style="text-indent:10px; margin-left:0px; padding-right: 8px;" type="submit;">Submit</button>
+
+  </div>
+</body>
+
+</html>

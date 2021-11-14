@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=EB+Garamond:ital,wght@1,600&family=Pacifico&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+   min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #707070;
+}
+
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: rgb(149, 41, 192);
+  padding: 34px;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+ 
+}
+.hurt{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 1000;
+  color: rgb(255, 255, 255);
+}
+
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+  color: #000000;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  border: 1.5px solid #000000;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  
+}
+
+form h3{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  border: none;
+  background: rgb(rgb(0, 0, 0), green, blue);
+  
+}
+.input-box.button input:hover{
+  background:rgb(rgb(0, 0, 0), green, blue);
+}
+form .text h3{
+ color: rgb(0, 0, 0);
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: rgb(rgb(0, 0, 0), green, blue);
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+  color: #000000;
+}
